@@ -1,0 +1,82 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr" Version="3.5.0.2" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="bootstrap" Version="5.3.3" />
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="CrystalReports.Engine" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ClientDoc" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommLayer" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommonControls" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommonObjectModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.Controllers" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CubeDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.DataDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.DataSetConversion" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ObjectFactory" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.Prompting" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ReportDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.XmlSerialize" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportSource" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.Shared" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.Web" Version="13.0.4003" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.2.0" />
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="EPPlus.Interfaces" Version="7.5.0" />
+    <PackageReference Include="EPPlus.System.Drawing" Version="7.5.0" />
+    <PackageReference Include="ExcelNumberFormat" Version="1.1.0" />
+    <PackageReference Include="jQuery" Version="3.7.1" />
+    <PackageReference Include="jQuery.Validation" Version="1.21.0" />
+    <PackageReference Include="log4net" Version="3.0.3" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNet.Razor" Version="3.3.0" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.JS" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.SystemWeb" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.3.0" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="4.1.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Owin" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="4.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Web.Infrastructure" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
+    <PackageReference Include="MicrosoftAjax" Version="4.0.20526" />
+    <PackageReference Include="MicrosoftMvcAjax.Mvc5" Version="5.0.0" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Owin" Version="1.0.0" />
+    <PackageReference Include="popper.js" Version="1.16.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.0" />
+    <PackageReference Include="toastr" Version="2.1.1" />
+    <PackageReference Include="Unity" Version="5.11.10" />
+    <PackageReference Include="Unity.Mvc5" Version="1.4.0" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
+  </ItemGroup>
+
+</Project>

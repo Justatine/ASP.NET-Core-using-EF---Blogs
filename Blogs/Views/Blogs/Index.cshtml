@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Blogs.Models.Blog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between">
+    <h5>Index</h5>
+    <p>
+        <a asp-action="AddOrEdit">
+            <button class="btn btn-success">Create New</button>
+        </a>
+    </p>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Timestamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Timestamp)
+            </td>
+            <td class="d-flex justify-content-center gap-2">
+                <a asp-action="AddOrEdit" asp-route-id="@item.Id">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </a> |
+
+                <form asp-action="Delete" asp-route-id="@item.Id">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@section Scripts {
+    <script src="~/Assets/js/blog.js"></script>
+}
